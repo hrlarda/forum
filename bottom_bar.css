@@ -1,0 +1,45 @@
+#menu{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+
+.category{
+    flex: 1;
+    border-right: 1px solid white;
+}
+
+.posts{
+    flex: 3;
+    background-color: rgb(24, 23, 23);
+}
+
+#menu h3{
+    font-size: 25px;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.category li a{
+    font-size: 20px;
+}
+
+.posts div{
+    margin-left: 1em;
+}
+
+.category li{
+    margin-bottom: 1em;
+}
+
+@media (max-width: 480px){
+    #menu h3{
+        font-size: 20px;
+    }
+    .category li a{
+        font-size: 16px;
+    }
+    .category ul{
+        margin-right: 15px;
+    }
+}
